@@ -32,7 +32,7 @@ if __name__ == '__main__':
     scale = calc_scale(json_dict['imageWidth'],
                        json_dict['imageHeight'])
     str = "/mnt/data/public/imageDatabases/DangerZones/AllPhotos/" + \
-        json_dict['imagePath'] 
+        json_dict['imagePath'] #Photo path here
     for shape in json_dict['shapes']:
         x1 = round(shape['points'][0][0])
         x2 = round(shape['points'][1][0])  
